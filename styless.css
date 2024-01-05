@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:burlywood;
+}
+h1 {
+    color: #333;
+}
+
+#display {
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:nth-child(15) {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#display[value="Error"] {
+    color: #dc3545;
+}
+body > br {
+    margin: 10px 0;
+}
+button:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
